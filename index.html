@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Analog Sea</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <img class="logo" src='https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png' alt="AnalogSea"/>
+    <form class='theform' action="/some-server-endpoint" method ='post'>
+      <fieldset>
+        <legend>Sign up</legend>
+        <label for="user-email" required>Email</label>
+        <input type="email" name='email' id='user-email' placeholder='foo@bar.com'/>
+        <label for="password" required>Password</label>
+        <input type='password' name='password' placeholder="1234passwOrd" title="Password" required/>
+        <button type='submit' class="button">Sign up</button>
+      </fieldset>
+    </form>
+    <footer role="contentinfo" class="footer">
+      <p>Already have an account? <a href="/login">Log in</a></p>
+    </footer>
+  </body>
+</html>
